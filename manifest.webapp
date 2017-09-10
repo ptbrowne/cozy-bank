@@ -32,57 +32,85 @@
     "apps": {
       "description": "Required by the cozy-bar to display the icons of the apps",
       "type": "io.cozy.apps",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     },
     "notifications": {
       "description": "Used to send notifications",
       "type": "io.cozy.notifications",
-      "verbs": ["POST"]
+      "verbs": [
+        "POST"
+      ]
     },
     "bank.settings": {
       "description": "Used to manage your bank settings",
       "type": "io.cozy.bank.settings",
-      "verbs": ["GET", "POST", "PUT"]
+      "verbs": [
+        "GET",
+        "POST",
+        "PUT"
+      ]
     },
     "bank.accounts": {
       "description": "Used to list your bank accounts",
       "type": "io.cozy.bank.accounts",
-      "verbs": ["GET", "POST", "PUT", "DELETE"]
+      "verbs": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     "bank.operations": {
       "description": "Used to manage your bank operations",
       "type": "io.cozy.bank.operations",
-      "verbs": ["GET", "POST", "PUT"]
+      "verbs": [
+        "GET",
+        "POST",
+        "PUT"
+      ]
     },
     "bank.groups": {
       "description": "Manage groups of bank accounts",
       "type": "io.cozy.bank.groups",
-      "verbs": ["GET", "POST", "PUT", "DELETE"]
+      "verbs": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     "bills": {
       "description": "Manage bills",
       "type": "io.cozy.bills",
-      "verbs": ["GET", "POST", "PUT", "DELETE"]
+      "verbs": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ]
     },
     "settings": {
       "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
       "type": "io.cozy.settings",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     },
     "sharings": {
       "description": "Handle shared bank accounts",
       "type": "io.cozy.mocks.sharings",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     },
     "recipients": {
       "description": "Get recipients for shared accounts",
       "type": "io.cozy.mocks.recipients",
-      "verbs": ["GET"]
-    },
-    "settings": {
-      "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
-      "type": "io.cozy.settings",
-      "verbs": ["GET"]
+      "verbs": [
+        "GET"
+      ]
     }
   }
 }
